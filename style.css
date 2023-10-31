@@ -12,4 +12,46 @@ Tags:        boisson, energisant, naturel
 Text Domain: Planty
 */
 
+#wpforms-submit-215 {
+	font-family: syne;
+	padding : 15px 40px 30px 40px;
+}
 
+/* wp form */
+
+#wpforms-548-field_1-container {
+	margin-right: -80px;
+	padding-left: 150px;
+}
+
+#wpforms-548-field_4-container {
+	border-left : 1px solid white;
+	padding-left: 100px
+}
+
+#wpforms-548-field_2-container {
+	margin-right: -80px;
+	padding-left: 150px;
+}
+
+#wpforms-548-field_5-container {
+	border-left : 1px solid white;
+	padding-left: 100px
+}
+
+#wpforms-548-field_3-container {
+	margin-right: -80px;
+	padding-left: 150px;
+}
+
+#wpforms-548-field_6-container {
+	border-left : 1px solid white;
+	padding-left: 100px
+}
+
+#wpforms-submit-548 {
+	font-family: syne;
+  padding : 15px 40px 30px 40px;
+	margin-left : 400px;
+	margin-top: 50px;
+}
