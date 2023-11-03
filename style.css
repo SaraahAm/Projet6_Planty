@@ -12,46 +12,73 @@ Tags:        boisson, energisant, naturel
 Text Domain: Planty
 */
 
+
+
+/* This styles the submit buttons */
+.wpf-center .wpforms-submit-container  {
+    display: inline-block;
+    text-align: center;
+    width: 100% !important;
+}
+
+/* This styles the submit buttons -nous contacter- */
+
+#wpforms-215-field_4 {
+	height : 300px;
+}
+
 #wpforms-submit-215 {
 	font-family: syne;
 	padding : 15px 40px 30px 40px;
 }
 
-/* wp form */
+#wpforms-submit-215:hover {
+	background-color : #C02E44;
+}
+
+/* This styles the submit buttons -commander- */
+
+#wpforms-submit-548 {
+	font-family: syne;
+  	padding : 15px 40px 30px 40px;
+	margin-top: 50px;
+}
+
+#wpforms-submit-548:hover {
+	background-color : #C02E44;
+}
+
+
+/* wp form commande */
+
+.elementor-element-0a51679 {
+	border-left : 1px solid white;
+	padding-left: 9px;
+}
 
 #wpforms-548-field_1-container {
-	margin-right: -80px;
-	padding-left: 150px;
+	padding-right: 50px;
 }
 
 #wpforms-548-field_4-container {
 	border-left : 1px solid white;
-	padding-left: 100px
+	padding-left: 70px
 }
 
 #wpforms-548-field_2-container {
-	margin-right: -80px;
-	padding-left: 150px;
+	padding-right: 50px;
 }
 
 #wpforms-548-field_5-container {
 	border-left : 1px solid white;
-	padding-left: 100px
+	padding-left: 70px
 }
 
 #wpforms-548-field_3-container {
-	margin-right: -80px;
-	padding-left: 150px;
+		padding-right: 50px;
 }
 
 #wpforms-548-field_6-container {
 	border-left : 1px solid white;
-	padding-left: 100px
-}
-
-#wpforms-submit-548 {
-	font-family: syne;
-  padding : 15px 40px 30px 40px;
-	margin-left : 400px;
-	margin-top: 50px;
+	padding-left: 70px
 }
