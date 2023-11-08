@@ -29,7 +29,7 @@ Text Domain: Planty
 
 #wpforms-submit-215 {
 	font-family: syne;
-	padding : 15px 40px 30px 40px;
+	padding : 20px 60px 35px 60px;
 }
 
 #wpforms-submit-215:hover {
@@ -40,7 +40,7 @@ Text Domain: Planty
 
 #wpforms-submit-548 {
 	font-family: syne;
-  	padding : 15px 40px 30px 40px;
+  	padding : 20px 40px 35px 40px;
 	margin-top: 50px;
 }
 
@@ -81,4 +81,15 @@ Text Domain: Planty
 #wpforms-548-field_6-container {
 	border-left : 1px solid white;
 	padding-left: 70px
+}
+
+/**** Responsive ****/ 
+
+@media (max-width: 768px) {
+	.elementor-element-0a51679 {
+			display: none;
+	}		
+	.elementor-element-1de7c29 {
+			display: none;
+	}
 }

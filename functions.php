@@ -8,15 +8,15 @@ function theme_enqueue_styles()
 
 }
 
-/* HOOK 
 
-if (is_user_logged_in()) {
-    wp_nav_menu( $menu  =  array(
-        'admin' = 'admin',
-    ));
+
+add_filter( 'wp_nav_menu_items', 'add_extra_item_to_nav_menu', 10, 2 );
+
+function add_extra_item_to_nav_menu($items, $args) {
+    if (is_user_logged_in() && $args->menu_id=="menu-1-b457354") {
+        $items .= '<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-16 current_page_item parent hfe-creative-menu"><a class="hfe-menu-item" href="'. esc_url(admin_url()) .'">Admin</a></li>';
+    }
+    return $items;
 }
 
-apply_filters ( 'wp_nav_menu_items', 'wp_nav_menu' ,  $args )
 
-
-*/
